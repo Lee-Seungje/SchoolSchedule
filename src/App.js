@@ -49,7 +49,7 @@ function App() {
   const handleChange = (event) => { // input에 변화가 일어났을 때에 Use State를 설정해주는 함수
     const Value = event.target.value;
       if(event.target.id === 'i2'){
-          if(Value != 1 && Value != 2 && Value != 3){
+          if(Value !== '1' && Value !== '2' && Value !== '3'){
             const P = document.getElementById('P');
             P.innerText = "학년은 1과 2와 3만 해당됩니다";
           }
@@ -66,7 +66,7 @@ function App() {
           setCLASS(Value);
       }
       if(event.target.id === 'i4'){
-        if(Value != 1 && Value != 2){
+        if(Value !== '1' && Value !== '2'){
           const P = document.getElementById('P');
           P.innerText = "학기는 1과 2만 해당됩니다";
         }
