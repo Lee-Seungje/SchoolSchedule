@@ -83,8 +83,7 @@ function App() {
   }
 
   return (
-    <div className="App" src="	http://www.yonexmall.com/images/banner/mainSlide/1440/2022/banner_0818.jpg
-    ">
+    <div className="App">
       <div className="inputs">
         <input onChange={handleChange} placeholder="날짜를 입력하세요(YYYYMMDD)" type="number" ref={YMDInput}  id="i1"/>
         <input onChange={handleChange} placeholder="학년을 입력하세요(n)" type="number" ref={GRAInput} id="i2"/>
