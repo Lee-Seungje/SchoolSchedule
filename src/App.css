@@ -7,14 +7,22 @@ input{
   outline: none;
   padding: 8px 20px;
   background-color:skyblue;
+  background-image: url(	http://www.yonexmall.com/shop/data/skin/standard_C/img/banner/logo.jpg
+  );
+}
+input::placeholder{
+  color:black;
+  font-weight: bolder;
 }
 input:focus{
-  outline: skyblue solid 5px;
+  outline: white solid 5px;
 }
 html, body{
   padding:0;
   margin:0;
   height:100%;
+  background-image: url(	http://www.yonexmall.com/images/banner/mainSlide/1440/2022/banner_0818.jpg
+  );
 }
 #P{
   color:red;
@@ -43,6 +51,7 @@ button:hover{
   flex-direction: column;
 }
 .inputs{
+  background-image: url(	http://www.yonexmall.com/images/banner/mainSlide/1440/2022/banner_0919.jpg);
   width:1300px;
   display:flex;
   flex-direction: column;
@@ -53,6 +62,7 @@ button:hover{
   border-radius: 20px;
 }
 ul{
+  background-image: url(http://www.yonexmall.com/images/banner/mainSlide/1440/2022/banner_0225.jpg);
   background-color: orange;
   width: 500px;
   margin-top: 50px;
