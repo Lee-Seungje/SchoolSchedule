@@ -1,6 +1,15 @@
 input{
-  font-size:50px;
+  font-size:40px;
   width:1000px;
+  margin-top: 20px;
+  border-radius: 20px;
+  border: 0px;
+  outline: none;
+  padding: 8px 20px;
+  background-color:skyblue;
+}
+input:focus{
+  outline: skyblue solid 5px;
 }
 html, body{
   padding:0;
@@ -13,6 +22,19 @@ html, body{
 #dofmsao{
   width:100px;
 }
+button{
+  width:150px;
+  height: 70px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  outline: none;
+  border: 0;
+  background-color:skyblue;
+}
+button:hover{
+  background-color:royalblue;
+  cursor: pointer;
+}
 .App{
   height:800px;
   display:flex;
@@ -21,9 +43,24 @@ html, body{
   flex-direction: column;
 }
 .inputs{
-  width:1000px;
+  width:1300px;
   display:flex;
   flex-direction: column;
   align-items: center;
   justify-content:center;
+  height: 400px;
+  background-color:deepskyblue;
+  border-radius: 20px;
+}
+ul{
+  background-color: orange;
+  width: 500px;
+  margin-top: 50px;
+  padding: 30px 20px;
+  border-radius: 20px;
+}
+li{
+  margin-left: 40px;
+  font-size: 20px;
+  color: yellow;
 }
