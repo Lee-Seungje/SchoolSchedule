@@ -7,8 +7,8 @@ input{
   outline: none;
   padding: 8px 20px;
   background-color:skyblue;
-  background-image: url(	http://www.yonexmall.com/shop/data/skin/standard_C/img/banner/logo.jpg
-  );
+ /* background-image: url(	http://www.yonexmall.com/shop/data/skin/standard_C/img/banner/logo.jpg
+  );*/
 }
 input::placeholder{
   color:black;
