@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'RixInooAriDuriR';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2207-01@1.0/RixInooAriDuriR.woff2') format('woff2');
+  font-family: 'GongGothicMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -13,14 +13,14 @@ input{
   outline: none;
   padding: 8px 20px;
   background-color:skyblue;
-  font-family: 'RixInooAriDuriR';
+  font-family: 'GongGothicMedium';
  /* background-image: url(	http://www.yonexmall.com/shop/data/skin/standard_C/img/banner/logo.jpg
   );*/
 }
 input::placeholder{
   color:black;
   font-weight: bolder;
-  font-family: 'RixInooAriDuriR';
+  font-family: 'GongGothicMedium';
 }
 input:focus{
   outline: white solid 5px;
