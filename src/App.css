@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'LeferiPoint-WhiteObliqueA';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-WhiteObliqueA.woff') format('woff');
+  font-family: 'HBIOS-SYS';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2207-01@1.0/HBIOS-SYS.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
@@ -13,14 +13,14 @@ input{
   outline: none;
   padding: 8px 20px;
   background-color:skyblue;
-  font-family: 'LeferiPoint-WhiteObliqueA';
+  font-family: 'HBIOS-SYS';
  /* background-image: url(	http://www.yonexmall.com/shop/data/skin/standard_C/img/banner/logo.jpg
   );*/
 }
 input::placeholder{
   color:black;
   font-weight: bolder;
-  font-family: 'LeferiPoint-WhiteObliqueA';
+  font-family: 'HBIOS-SYS';
 }
 input:focus{
   outline: white solid 5px;
@@ -70,8 +70,8 @@ button:hover{
   border-radius: 20px;
 }
 ul{
-  background-image: url(http://www.yonexmall.com/images/banner/mainSlide/1440/2022/banner_0225.jpg);
-  background-color: orange;
+  /*background-image: url(http://www.yonexmall.com/images/banner/mainSlide/1440/2022/banner_0225.jpg);
+  */background-color: orange;
   width: 500px;
   margin-top: 50px;
   padding: 30px 20px;
