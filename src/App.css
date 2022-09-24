@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'JSongMyung-Regular-KO';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/JSongMyung-Regular-KO.woff2') format('woff2');
+  font-family: 'LeferiPoint-WhiteObliqueA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-WhiteObliqueA.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -13,14 +13,14 @@ input{
   outline: none;
   padding: 8px 20px;
   background-color:skyblue;
-  font-family: 'JSongMyung-Regular-KO';
+  font-family: 'LeferiPoint-WhiteObliqueA';
  /* background-image: url(	http://www.yonexmall.com/shop/data/skin/standard_C/img/banner/logo.jpg
   );*/
 }
 input::placeholder{
   color:black;
   font-weight: bolder;
-  font-family: 'JSongMyung-Regular-KO';
+  font-family: 'LeferiPoint-WhiteObliqueA';
 }
 input:focus{
   outline: white solid 5px;
