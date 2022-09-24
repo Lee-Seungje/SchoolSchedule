@@ -68,6 +68,7 @@ button:hover{
   justify-content:center;
   align-items:center;
   flex-direction: column;
+  font-family: 'HBIOS-SYS';
 }
 .inputs{
   /*background-image: url(	http://www.yonexmall.com/images/banner/mainSlide/1440/2022/banner_0919.jpg);
@@ -80,6 +81,7 @@ button:hover{
   justify-content:center;
   height: 570px;
   border-radius: 20px;
+  font-family: 'HBIOS-SYS';
 }
 ul{
   /*background-image: url(http://www.yonexmall.com/images/banner/mainSlide/1440/2022/banner_0225.jpg);
