@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'Chosunilbo_myungjo';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Chosunilbo_myungjo.woff') format('woff');
+  font-family: 'IM_Hyemin-Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/IM_Hyemin-Bold.woff2') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -13,14 +13,14 @@ input{
   outline: none;
   padding: 8px 20px;
   background-color:skyblue;
-  font-family: 'Chosunilbo_myungjo';
+  font-family: 'IM_Hyemin-Bold';
  /* background-image: url(	http://www.yonexmall.com/shop/data/skin/standard_C/img/banner/logo.jpg
   );*/
 }
 input::placeholder{
   color:black;
   font-weight: bolder;
-  font-family: 'Chosunilbo_myungjo';
+  font-family: 'IM_Hyemin-Bold';
 }
 input:focus{
   outline: white solid 5px;
