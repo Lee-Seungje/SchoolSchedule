@@ -25,53 +25,65 @@ input::placeholder{
 input:focus{
   outline: white solid 5px;
 }
+#i1{
+  margin-top: 20px;
+}
 html, body{
   padding:0;
   margin:0;
   height:100%;
   background-image: url(	http://www.yonexmall.com/images/banner/mainSlide/1440/2022/banner_0818.jpg
   );
+  font-family: 'HBIOS-SYS';
 }
 #P{
   color:red;
+  font-family: 'HBIOS-SYS';
+  font-size: 30px;
+  position: absolute;
+  top:400px;
 }
 #dofmsao{
   width:100px;
 }
 button{
-  width:150px;
+  width:450px;
   height: 70px;
   margin-bottom: 20px;
   border-radius: 20px;
   outline: none;
   border: 0;
   background-color:skyblue;
+  font-family: 'HBIOS-SYS';
+  font-size: 30px;
+  margin-top: 80px;
 }
 button:hover{
   background-color:royalblue;
   cursor: pointer;
 }
 .App{
-  height:800px;
+  height:1000px;
   display:flex;
   justify-content:center;
   align-items:center;
   flex-direction: column;
 }
 .inputs{
-  background-image: url(	http://www.yonexmall.com/images/banner/mainSlide/1440/2022/banner_0919.jpg);
+  /*background-image: url(	http://www.yonexmall.com/images/banner/mainSlide/1440/2022/banner_0919.jpg);
+  */
+  background-color:chartreuse ;
   width:1300px;
   display:flex;
   flex-direction: column;
   align-items: center;
   justify-content:center;
-  height: 400px;
-  background-color:deepskyblue;
+  height: 570px;
   border-radius: 20px;
 }
 ul{
   /*background-image: url(http://www.yonexmall.com/images/banner/mainSlide/1440/2022/banner_0225.jpg);
-  */background-color: orange;
+  */background-color:chartreuse ;
   width: 500px;
   margin-top: 50px;
   padding: 30px 20px;
@@ -79,6 +91,7 @@ ul{
 }
 li{
   margin-left: 40px;
-  font-size: 20px;
-  color: yellow;
+  font-size: 28px;
+  color:blueviolet;
+  font-family: 'HBIOS-SYS';
 }
