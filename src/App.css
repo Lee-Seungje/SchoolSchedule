@@ -27,6 +27,7 @@ input::placeholder{
 input:focus{
   outline: blueviolet solid 5px;
   transition: ease-in-out 0.3s;
+  font-family: 'HBIOS-SYS';
 }
 #i1{
   margin-top: 20px;
